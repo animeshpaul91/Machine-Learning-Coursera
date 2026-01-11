@@ -1,0 +1,23 @@
+
+
+Positive Association rules are represented by Item A => Item B
+
+
+
+Negative Association rules are represented by Item -A => Item -B, Item -A => Item B, Item A => Item -B
+
+
+
+
+Writing Rules A=>B and ~A=>~B into File
+
+Rule   (Support, Confidence, Correlation Factor) 
+
+
+
+
+Writing Rules A=>~B and ~A=>B into File
+
+
+Rule   (Support, Confidence, Correlation Factor) 
+

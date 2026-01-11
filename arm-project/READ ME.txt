@@ -1,0 +1,12 @@
+Open this directory in MATLAB and type Apriori in the command line to view Apriori Rules
+
+Type Pnar_improved to view the proposed Algorithm's rules
+
+Type Pnar to View traditional PNAR algorithm's Rules.
+
+The Apriori Rules are listed in AprioriRules.txt
+
+The PNAR improved algorithm's Rules are listed in PnarRules.txt
+
+Pnar_improved1 is the same MATLAB function with a different dataset. 
+

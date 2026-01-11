@@ -1,0 +1,25 @@
+>> clear
+>> array = cell(1,10);
+for i=1:10
+    array{i} = ['Item' num2str(i)];
+end
+fileID = fopen('file.txt','w');
+[nrows,ncols] = size(array);
+for row = 1:nrows
+fprintf(fileID,'%s\n' ,array{row,:});
+end
+fclose(fileID);
+>> array = cell(10,1);
+for i=1:10
+  array{i} = ['Itemset ' num2str(i)];
+end
+fileID = fopen('file1.txt','w');
+[nrows,ncols] = size(array);
+for row = 1:nrows
+    temp_str = array{row,:};
+    fprintf(fileID ,'%s\n', temp_str);
+end
+fclose(fileID);
+>> 
+
+8235110108
